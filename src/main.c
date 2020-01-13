@@ -96,7 +96,7 @@ int main(void) {
     int pause = 0;
 
     /* enable the led clock */
-    enableGPIOClocksAB();
+    /* enableGPIOClocksAB(); */
     /*rcu_periph_clock_enable(RCU_GPIOA); */
 
     prepareLEDS();
